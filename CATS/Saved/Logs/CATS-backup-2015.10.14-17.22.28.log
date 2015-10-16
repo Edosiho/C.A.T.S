@@ -1,0 +1,1254 @@
+﻿[2015.10.09-00.17.34:948][  0]Log file open, 10/08/15 19:17:34
+[2015.10.09-00.17.34:948][  0]LogInit:Display: Running engine for game: CATS
+[2015.10.09-00.17.34:948][  0]LogInit:Display: RandInit(440579984) SRandInit(440579987).
+[2015.10.09-00.17.34:948][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.10.09-00.17.34:948][  0]LogStats: Stats thread started at 0.328084
+[2015.10.09-00.17.34:948][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.10.09-00.17.34:948][  0]LogInit: API Version: 2672455
+[2015.10.09-00.17.34:948][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.10.09-00.17.34:948][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.09-00.17.34:948][  0]LogInit: Build Configuration: Development
+[2015.10.09-00.17.34:948][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.09-00.17.34:948][  0]LogInit: Command line:  
+[2015.10.09-00.17.34:948][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.09-00.17.34:948][  0]LogInit: Rocket: 1
+[2015.10.09-00.17.34:980][  0]LogInit: Using libcurl 7.41.0
+[2015.10.09-00.17.34:980][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.09-00.17.34:980][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.09-00.17.34:980][  0]LogInit:  - other features:
+[2015.10.09-00.17.34:980][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.09-00.17.34:980][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.09-00.17.34:980][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.09-00.17.34:980][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.09-00.17.34:980][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.09-00.17.34:980][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.09-00.17.34:980][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.09-00.17.34:980][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.09-00.17.34:980][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.09-00.17.34:980][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.09-00.17.34:995][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.09-00.17.35:011][  0]LogInit: Object subsystem initialized
+[2015.10.09-00.17.35:011][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.09-00.17.35:011][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.09-00.17.35:051][  0]LogInit: Computer: AGISE
+[2015.10.09-00.17.35:051][  0]LogInit: User: Edosiho
+[2015.10.09-00.17.35:051][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.09-00.17.35:051][  0]LogInit: High frequency timer resolution =2.208009 MHz
+[2015.10.09-00.17.35:051][  0]LogMemory: Memory total: Physical=6.0GB (6GB approx)
+[2015.10.09-00.17.35:051][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.09-00.17.35:051][  0]LogMemory: Process Physical Memory: 55.77 MB used, 55.77 MB peak
+[2015.10.09-00.17.35:051][  0]LogMemory: Process Virtual Memory: 58.87 MB used, 58.87 MB peak
+[2015.10.09-00.17.35:051][  0]LogMemory: Physical Memory: 1465.17 MB used, 6131.91 MB total
+[2015.10.09-00.17.35:051][  0]LogMemory: Virtual Memory: 351.70 MB used, 134217728.00 MB total
+[2015.10.09-00.17.36:494][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro FX 770M (Feature Level 10_0)
+[2015.10.09-00.17.36:494][  0]LogD3D11RHI: Adapter has 483MB of dedicated video memory, 0MB of dedicated system memory, and 3065MB of shared system memory, 1 output[s]
+[2015.10.09-00.17.36:498][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.09-00.17.36:498][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.10.09-00.17.36:498][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.09-00.17.36:511][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.09-00.17.36:511][  0]LogRHI: Texture pool is 338 MB (70% of 483 MB)
+[2015.10.09-00.17.36:534][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.09-00.17.36:554][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Intermediate/Shaders/WorkingDirectory/29088/).
+[2015.10.09-00.17.36:554][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Intermediate/Shaders/tmp/129CDA2B4F824412376C7EAC1E3F31D2/'.
+[2015.10.09-00.17.36:554][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.09-00.17.41:418][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.09-00.17.41:433][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.09-00.17.41:449][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.09-00.17.41:464][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.09-00.17.41:496][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.09-00.17.41:508][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.09-00.17.41:539][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.09-00.17.41:551][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.09-00.17.41:571][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.09-00.17.41:583][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.09-00.17.41:595][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.09-00.17.41:607][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.09-00.17.41:612][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.09-00.17.41:679][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.09-00.17.41:690][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.09-00.17.41:700][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.09-00.17.41:711][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.09-00.17.41:711][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.09-00.17.42:460][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.09-00.17.43:373][  0]LogDerivedDataCache: Loaded boot cache 0.91s 36MB C:/Users/Edosiho/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.09-00.17.43:373][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Edosiho/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.09-00.17.43:374][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.09-00.17.43:374][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.09-00.17.43:374][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.09-00.17.43:374][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.09-00.17.43:700][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.09-00.17.43:713][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Edosiho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.09-00.17.51:373][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.09-00.17.51:417][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.09-00.17.52:746][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.09-00.17.52:747][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.09-00.17.55:708][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.09-00.18.11:849][  0]LogAssetRegistry: FAssetRegistry took 0.0157 seconds to start up
+[2015.10.09-00.18.12:147][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.09-00.18.16:381][  0]SourceControl: Info Source control is disabled
+[2015.10.09-00.18.17:182][  0]SourceControl: Info Source control is disabled
+[2015.10.09-00.18.17:270][  0]SourceControl: Info Source control is disabled
+[2015.10.09-00.18.17:383][  0]SourceControl: Info Source control is disabled
+[2015.10.09-00.18.18:907][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.09-00.18.19:894][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2015.10.09-00.18.19:894][  0]LogUObjectAllocator: 6068456 out of 0 bytes used by permanent object pool.
+[2015.10.09-00.18.20:719][  0]LogEngine: Initializing Engine...
+[2015.10.09-00.18.20:785][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.09-00.18.20:835][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.09-00.18.21:531][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.09-00.18.21:644][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-00.18.21:992][  0]LogInit: FAudioDevice initialized.
+[2015.10.09-00.18.22:038][  0]LogDerivedDataCache: Saved boot cache 0.05s 36MB C:/Users/Edosiho/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.09-00.18.22:058][  0]LogInit: Texture streaming: Enabled
+[2015.10.09-00.18.22:182][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.09-00.18.22:182][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.10.09-00.18.22:183][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a3ecda3c4d50cd275ecf7497f12b4d14|e806c5a3e75b4a14b122359eb3b7e1a6|4fbddb0b-eeea-41a9-880e-03c25a996dc0
+[2015.10.09-00.18.22:197][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.09-00.18.22:720][  0]LogInit: Transaction tracking system initialized
+[2015.10.09-00.18.26:842][  0]BlueprintLog: New page: Editor Load
+[2015.10.09-00.18.28:441][  0]LocalizationService: Info Localization service is disabled
+[2015.10.09-00.18.29:652][  0]LogConsoleResponse:Display: 
+[2015.10.09-00.18.36:556][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/' took 0.03s
+[2015.10.09-00.18.36:556][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.09-00.18.39:240][  0]SourceControl: Info Source control is disabled
+[2015.10.09-00.18.39:337][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.10.09-00.18.39:407][  0]LightingResults: New page: Lighting Build
+[2015.10.09-00.18.39:481][  0]MapCheck: New page: Map Check
+[2015.10.09-00.18.39:482][  0]LightingResults: New page: Lighting Build
+[2015.10.09-00.18.40:698][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F44276A160
+[2015.10.09-00.18.48:183][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.09-00.18.48:477][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.09-00.18.49:576][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.09-00.18.49:735][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 158.522ms to complete.
+[2015.10.09-00.18.49:735][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 10.414
+[2015.10.09-00.18.50:471][  0]LogCollectionManager: Loaded 0 collections in 0.006456 seconds
+[2015.10.09-00.18.50:600][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Collections/' took 0.01s
+[2015.10.09-00.18.50:600][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Developers/Edosiho/Collections/' took 0.01s
+[2015.10.09-00.18.50:600][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Collections/' took 0.01s
+[2015.10.09-00.18.50:600][  0]LogContentBrowser: Native class hierarchy populated in 0.0412 seconds. Added 1882 classes and 339 folders.
+[2015.10.09-00.18.50:657][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2015.10.09-00.18.50:706][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.10.09-00.18.52:439][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.10.09-00.18.52:508][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2015.10.09-00.18.53:293][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.09-00.18.53:390][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.09-00.18.53:467][  0]LogLoad: Full Startup: 80.05 seconds (BP compile: 1.02 seconds)
+[2015.10.09-00.18.53:773][  0]LogContentStreaming: Texture pool size now 700 MB
+[2015.10.09-00.18.54:168][  0]LogRenderer: Reallocating scene render targets to support 1032x412 (Frame:2).
+[2015.10.09-00.18.56:065][  9]LogAssetRegistry: Asset discovery search completed in 44.2312 seconds
+[2015.10.09-00.18.56:066][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2015.10.09-00.18.56:066][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000084 seconds (updated 0 objects)
+[2015.10.09-00.19.03:959][234]LogAIModule: Creating AISystem for world catsmejorado
+[2015.10.09-00.19.04:160][234]Cmd: MAP LOAD FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/catsmejorado.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.10.09-00.19.04:160][234]LightingResults: New page: Lighting Build
+[2015.10.09-00.19.04:200][234]LoadErrors: New page: Loading map: catsmejorado.umap
+[2015.10.09-00.19.04:205][234]MapCheck: New page: Map Check
+[2015.10.09-00.19.04:205][234]LightingResults: New page: Lighting Build
+[2015.10.09-00.19.04:245][234]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4442A0EA0
+[2015.10.09-00.19.04:498][234]LogPhysics:Warning: AddSphylsToRigidActor: [/Game/catsmejorado.catsmejorado:PersistentLevel.playground_gatito.CollisionCylinder] SphylElems[0] invalid
+[2015.10.09-00.19.04:669][234]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.09-00.19.05:017][234]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.09-00.19.05:196][234]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 178.144ms to complete.
+[2015.10.09-00.19.05:196][234]LogFileHelpers: Loading map 'catsmejorado' took 1.038
+[2015.10.09-00.19.08:545][243]MapCheck: New page: Map Check
+[2015.10.09-00.19.10:228][243]Cmd: MAP REBUILD ALLVISIBLE
+[2015.10.09-00.19.10:239][243]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.09-00.19.10:774][243]LogPhysics:Warning: AddSphylsToRigidActor: [/Game/catsmejorado.catsmejorado:PersistentLevel.playground_gatito.CollisionCylinder] SphylElems[0] invalid
+[2015.10.09-00.19.10:861][243]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.10.09-00.19.10:861][243]LogStats:          STAT_HLOD_BuildClusters - 57.220 ms
+[2015.10.09-00.19.10:895][243]LightingResults: New page: Lighting Build - Oct 8, 2015, 2:19:10 PM
+[2015.10.09-00.20.04:050][243]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.10.09-00.20.04:111][243]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.10.09-00.20.04:111][243]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.10.09-00.20.04:112][243]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.10.09-00.20.04:112][243]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.10.09-00.20.04:112][243]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.10.09-00.20.04:912][243]LogEditorBuildUtils: Build time 0:00:54
+[2015.10.09-00.20.35:037][327]LightingResults:Error: Error playground_gatito Object has overlapping UVs.
+[2015.10.09-00.20.35:037][327]LightingResults: Info playground_gatito Lightmap UV are overlapping by 47.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-00.20.37:707][335]Job is a success!
+[2015.10.09-00.20.38:398][336]LogPhysics:Warning: AddSphylsToRigidActor: [/Game/catsmejorado.catsmejorado:PersistentLevel.playground_gatito.CollisionCylinder] SphylElems[0] invalid
+[2015.10.09-00.20.39:003][336]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.10.09-00.20.39:417][336]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.10.09-00.20.39:430][336]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.10.09-00.20.39:431][336]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2015.10.09-00.20.39:437][336]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.10.09-00.20.39:510][336]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.10.09-00.20.39:627][336]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2015.10.09-00.20.39:684][336]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.10.09-00.20.39:788][336]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.10.09-00.20.39:916][336]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2015.10.09-00.20.40:003][336]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.10.09-00.20.40:308][336]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.10.09-00.20.40:741][336]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2015.10.09-00.20.40:901][336]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.10.09-00.20.41:282][336]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.10.09-00.20.42:318][336]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2015.10.09-00.20.42:635][336]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2015.10.09-00.20.42:672][336]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2015.10.09-00.20.42:711][336]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2015.10.09-00.20.42:717][336]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
+[2015.10.09-00.20.43:089][336]Lightmass on AGISE: 33.3 sec total, 639 ms importing, 101 ms setup, 3.47 sec photons, 28.8 sec processing, 0 ms extra exporting [94/94 mappings]. Threads: 57.6 sec total, 23.0 sec processing.
+[2015.10.09-00.20.43:163][336]LogPhysics:Warning: AddSphylsToRigidActor: [/Game/catsmejorado.catsmejorado:PersistentLevel.playground_gatito.CollisionCylinder] SphylElems[0] invalid
+[2015.10.09-00.20.43:465][336]LogStaticLightingSystem: Illumination: 1:32 min (4.04 sec encoding lightmaps)
+[2015.10.09-00.20.43:465][336]LogStaticLightingSystem: Lightmap texture memory:  1.8 MB (0.5 MB streaming, 1.3 MB non-streaming), 10 textures
+[2015.10.09-00.20.43:465][336]LogStaticLightingSystem: Shadowmap texture memory: 0.9 MB (0.3 MB streaming, 0.7 MB non-streaming), 5 textures
+[2015.10.09-00.21.09:790][337]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.10.09-00.21.09:791][337]MapCheck: New page: catsmejorado - Oct 8, 2015, 2:21:09 PM
+[2015.10.09-00.21.09:870][337]MapCheck:Error: Error Cone2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2015.10.09-00.21.09:870][337]MapCheck:Warning: Warning Cone2 Static mesh actor has NULL StaticMesh property 
+[2015.10.09-00.21.09:870][337]MapCheck:Warning: Warning Cone2 Static mesh actor has NULL StaticMesh property 
+[2015.10.09-00.21.10:023][337]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 233.048ms to complete.
+[2015.10.09-00.21.54:828][962]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/catsmejorado.catsmejorado:PersistentLevel' has LevelScriptBlueprint '/Game/catsmejorado.catsmejorado:PersistentLevel.catsmejorado' with GeneratedClass '/Game/catsmejorado.catsmejorado_C' with ClassGeneratedBy '/Game/catsmejorado.catsmejorado:PersistentLevel.catsmejorado'
+[2015.10.09-00.21.54:829][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-00.21.54:829][962]PIE: New page: PIE session: catsmejorado (Oct 8, 2015, 2:21:54 PM)
+[2015.10.09-00.21.54:829][962]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_catsmejorado
+[2015.10.09-00.21.54:946][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117178s)
+[2015.10.09-00.21.54:948][962]LogAIModule: Creating AISystem for world catsmejorado
+[2015.10.09-00.21.54:950][962]LogPlayLevel: PIE: World Init took: (0.002364s)
+[2015.10.09-00.21.54:950][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/catsmejorado.catsmejorado to /Game/UEDPIE_0_catsmejorado.catsmejorado (0.121175s)
+[2015.10.09-00.21.55:002][962]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-00.21.55:015][962]LogInit: FAudioDevice initialized.
+[2015.10.09-00.21.55:154][962]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-00.21.55:175][962]LogWorld: Bringing World /Game/UEDPIE_0_catsmejorado.catsmejorado up for play (max tick rate 60) at 2015.10.08-19.21.55
+[2015.10.09-00.21.55:175][962]LogActor:Warning: GameSession /Game/UEDPIE_0_catsmejorado.catsmejorado:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-00.21.55:175][962]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_catsmejorado.catsmejorado:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-00.21.55:177][962]LogWorld: Bringing up level for play took: 0.021295
+[2015.10.09-00.21.55:201][962]PIE: Info Play in editor start time for /Game/UEDPIE_0_catsmejorado 0.936
+[2015.10.09-00.21.55:201][962]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/catsmejorado.catsmejorado:PersistentLevel' has LevelScriptBlueprint '/Game/catsmejorado.catsmejorado:PersistentLevel.catsmejorado' with GeneratedClass '/Game/catsmejorado.catsmejorado_C' with ClassGeneratedBy '/Game/catsmejorado.catsmejorado:PersistentLevel.catsmejorado'
+[2015.10.09-00.22.08:885][173]LogHttp:Warning: Timeout processing Http request. 000000F4623BA800
+[2015.10.09-00.22.41:415][752]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/catsmejorado.catsmejorado:PersistentLevel' has LevelScriptBlueprint '/Game/catsmejorado.catsmejorado:PersistentLevel.catsmejorado' with GeneratedClass '/Game/catsmejorado.catsmejorado_C' with ClassGeneratedBy '/Game/catsmejorado.catsmejorado:PersistentLevel.catsmejorado'
+[2015.10.09-00.22.41:545][752]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/catsmejorado.catsmejorado:PersistentLevel' has LevelScriptBlueprint '/Game/catsmejorado.catsmejorado:PersistentLevel.catsmejorado' with GeneratedClass '/Game/catsmejorado.catsmejorado_C' with ClassGeneratedBy '/Game/catsmejorado.catsmejorado:PersistentLevel.catsmejorado'
+[2015.10.09-00.22.41:617][753]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4280E8C20
+[2015.10.09-00.22.47:555][ 76]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.09-00.22.47:600][ 76]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2015.10.09-00.22.47:600][ 76]LogSynthBenchmark:Display: ===============
+[2015.10.09-00.22.47:600][ 76]LogSynthBenchmark:Display: Main Processor:
+[2015.10.09-00.22.47:670][ 76]LogSynthBenchmark:Display:          ... 0.035987 s/Run 'RayIntersect'
+[2015.10.09-00.22.47:670][ 76]LogSynthBenchmark:Display:          ... 0.034297 s/Run 'Fractal'
+[2015.10.09-00.22.47:670][ 76]LogSynthBenchmark:Display: 
+[2015.10.09-00.22.47:670][ 76]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2015.10.09-00.22.47:670][ 76]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2015.10.09-00.22.47:670][ 76]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2015.10.09-00.22.47:670][ 76]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2015.10.09-00.22.47:670][ 76]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 6
+[2015.10.09-00.22.47:670][ 76]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2015.10.09-00.22.47:670][ 76]LogSynthBenchmark:Display:   NumberOfCores (logical): 2
+[2015.10.09-00.22.47:670][ 76]LogSynthBenchmark:Display:   CPU Perf Index 0: 71.2
+[2015.10.09-00.22.47:670][ 76]LogSynthBenchmark:Display:   CPU Perf Index 1: 83.4
+[2015.10.09-00.22.47:670][ 76]LogSynthBenchmark:Display:  
+[2015.10.09-00.22.47:671][ 76]LogSynthBenchmark:Display: Graphics:
+[2015.10.09-00.22.47:671][ 76]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA Quadro FX 770M'
+[2015.10.09-00.22.47:671][ 76]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2015.10.09-00.22.47:671][ 76]LogSynthBenchmark:Display:   Vendor Id: 0x10de
+[2015.10.09-00.22.47:671][ 76]LogSynthBenchmark:Display:   GPU Memory: 484/0/3066 MB
+[2015.10.09-00.22.47:758][ 76]LogSynthBenchmark:Display:   GPU first test: 0.05s
+[2015.10.09-00.22.47:758][ 76]LogSynthBenchmark:Display:          ... 0.142 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2015.10.09-00.22.47:758][ 76]LogSynthBenchmark:Display:          ... 0.265 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2015.10.09-00.22.47:758][ 76]LogSynthBenchmark:Display:          ... 0.231 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2015.10.09-00.22.47:758][ 76]LogSynthBenchmark:Display:          ... 0.508 GigaPix/s, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2015.10.09-00.22.47:758][ 76]LogSynthBenchmark:Display:          ... 0.023 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:   GPU second test: 0.47s
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:          ... 0.190 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:          ... 0.457 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:          ... 0.377 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:          ... 1.783 GigaPix/s, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:          ... 0.022 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:          ... 0.190 GigaPix/s, Confidence=100% 'ALUHeavyNoise'
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:          ... 0.457 GigaPix/s, Confidence=100% 'TexHeavy'
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:          ... 0.377 GigaPix/s, Confidence=100% 'DepTexHeavy'
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:          ... 1.783 GigaPix/s, Confidence=100% 'FillOnly'
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:          ... 0.022 GigaPix/s, Confidence=100% 'Bandwidth'
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display: 
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:   GPU Perf Index 0: 4.1
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:   GPU Perf Index 1: 6.1
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:   GPU Perf Index 2: 9.8
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:   GPU Perf Index 3: 7.0
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:   GPU Perf Index 4: 2.0
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:   CPUIndex: 71.2
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:   GPUIndex: 4.1
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display: 
+[2015.10.09-00.22.48:237][ 76]LogSynthBenchmark:Display:          ... Total Time: 0.637660 sec
+[2015.10.09-00.22.48:600][ 77]LogRenderer: Reallocating scene render targets to support 1032x412 (Frame:829).
+[2015.10.09-00.22.48:668][ 78]LogContentStreaming: Texture pool size now 200 MB
+[2015.10.09-00.22.53:274][303]LogRenderer: Reallocating scene render targets to support 1032x412 (Frame:831).
+[2015.10.09-00.22.53:316][303]LogContentStreaming: Texture pool size now 700 MB
+[2015.10.09-00.22.55:508][403]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/catsmejorado.catsmejorado:PersistentLevel' has LevelScriptBlueprint '/Game/catsmejorado.catsmejorado:PersistentLevel.catsmejorado' with GeneratedClass '/Game/catsmejorado.catsmejorado_C' with ClassGeneratedBy '/Game/catsmejorado.catsmejorado:PersistentLevel.catsmejorado'
+[2015.10.09-00.22.55:508][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-00.22.55:508][403]PIE: New page: PIE session: catsmejorado (Oct 8, 2015, 2:22:55 PM)
+[2015.10.09-00.22.55:508][403]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_catsmejorado
+[2015.10.09-00.22.55:616][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.107441s)
+[2015.10.09-00.22.55:618][403]LogAIModule: Creating AISystem for world catsmejorado
+[2015.10.09-00.22.55:618][403]LogPlayLevel: PIE: World Init took: (0.002219s)
+[2015.10.09-00.22.55:618][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/catsmejorado.catsmejorado to /Game/UEDPIE_0_catsmejorado.catsmejorado (0.109974s)
+[2015.10.09-00.22.55:675][403]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-00.22.55:685][403]LogInit: FAudioDevice initialized.
+[2015.10.09-00.22.55:734][403]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-00.22.55:753][403]LogWorld: Bringing World /Game/UEDPIE_0_catsmejorado.catsmejorado up for play (max tick rate 60) at 2015.10.08-19.22.55
+[2015.10.09-00.22.55:753][403]LogActor:Warning: GameSession /Game/UEDPIE_0_catsmejorado.catsmejorado:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-00.22.55:754][403]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_catsmejorado.catsmejorado:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-00.22.55:755][403]LogWorld: Bringing up level for play took: 0.020273
+[2015.10.09-00.22.55:759][403]PIE: Info Play in editor start time for /Game/UEDPIE_0_catsmejorado -0.506
+[2015.10.09-00.22.55:759][403]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/catsmejorado.catsmejorado:PersistentLevel' has LevelScriptBlueprint '/Game/catsmejorado.catsmejorado:PersistentLevel.catsmejorado' with GeneratedClass '/Game/catsmejorado.catsmejorado_C' with ClassGeneratedBy '/Game/catsmejorado.catsmejorado:PersistentLevel.catsmejorado'
+[2015.10.09-00.24.02:021][609]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/catsmejorado.catsmejorado:PersistentLevel' has LevelScriptBlueprint '/Game/catsmejorado.catsmejorado:PersistentLevel.catsmejorado' with GeneratedClass '/Game/catsmejorado.catsmejorado_C' with ClassGeneratedBy '/Game/catsmejorado.catsmejorado:PersistentLevel.catsmejorado'
+[2015.10.09-00.24.02:119][609]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/catsmejorado.catsmejorado:PersistentLevel' has LevelScriptBlueprint '/Game/catsmejorado.catsmejorado:PersistentLevel.catsmejorado' with GeneratedClass '/Game/catsmejorado.catsmejorado_C' with ClassGeneratedBy '/Game/catsmejorado.catsmejorado:PersistentLevel.catsmejorado'
+[2015.10.09-00.24.02:191][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F44414F560
+[2015.10.09-00.31.16:713][963]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-00.31.21:106][975]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-00.31.28:188][991]LogSavePackage: Save=457.061554ms
+[2015.10.09-00.31.28:189][991]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/catsmejorado_Auto1AC09DEC9473CCFA38E390DB1FED44F1E.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/catsmejorado_Auto1.umap'
+[2015.10.09-00.31.28:200][991]LogSavePackage: Total save time: 747.141432ms
+[2015.10.09-00.31.28:201][991]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/catsmejorado_Auto1.umap
+[2015.10.09-00.31.28:218][991]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/catsmejorado' took 0.850
+[2015.10.09-00.31.28:218][991]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.850
+[2015.10.09-00.34.22:146][503]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-00.52.44:982][744]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-01.11.44:976][871]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/catsmejorado.catsmejorado:PersistentLevel.AtmosphericFog_1.ArrowComponent0 and ArrowComponent /Game/cats.cats:PersistentLevel.AtmosphericFog_1.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.44:976][871]LogUObjectGlobals:Warning: Guid is in use by AtmosphericFogComponent /Game/catsmejorado.catsmejorado:PersistentLevel.AtmosphericFog_1.AtmosphericFogComponent0 and AtmosphericFogComponent /Game/cats.cats:PersistentLevel.AtmosphericFog_1.AtmosphericFogComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.44:976][871]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/catsmejorado.catsmejorado:PersistentLevel.AtmosphericFog_1.Sprite and BillboardComponent /Game/cats.cats:PersistentLevel.AtmosphericFog_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.44:976][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel10.BrushComponent0 and BrushComponent /Game/cats.cats:PersistentLevel.CajaPincel10.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.44:976][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel11.BrushComponent0 and BrushComponent /Game/cats.cats:PersistentLevel.CajaPincel11.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.44:976][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel2.BrushComponent0 and BrushComponent /Game/cats.cats:PersistentLevel.CajaPincel2.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.44:976][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel3.BrushComponent0 and BrushComponent /Game/cats.cats:PersistentLevel.CajaPincel3.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.44:976][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel4.BrushComponent0 and BrushComponent /Game/cats.cats:PersistentLevel.CajaPincel4.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.44:976][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel5.BrushComponent0 and BrushComponent /Game/cats.cats:PersistentLevel.CajaPincel5.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.44:976][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel6.BrushComponent0 and BrushComponent /Game/cats.cats:PersistentLevel.CajaPincel6.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.44:977][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel7.BrushComponent0 and BrushComponent /Game/cats.cats:PersistentLevel.CajaPincel7.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.44:977][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel8.BrushComponent0 and BrushComponent /Game/cats.cats:PersistentLevel.CajaPincel8.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.44:977][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel9.BrushComponent0 and BrushComponent /Game/cats.cats:PersistentLevel.CajaPincel9.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.44:977][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel_14.BrushComponent0 and BrushComponent /Game/cats.cats:PersistentLevel.CajaPincel_14.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.44:977][871]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/catsmejorado.catsmejorado:PersistentLevel.Cube.CollisionCylinder and CapsuleComponent /Game/cats.cats:PersistentLevel.Cube.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.44:977][871]LogUObjectGlobals:Warning: Guid is in use by InteractiveFoliageComponent /Game/catsmejorado.catsmejorado:PersistentLevel.Cube.StaticMeshComponent0 and InteractiveFoliageComponent /Game/cats.cats:PersistentLevel.Cube.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:018][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.mesa_10.StaticMeshComponent0 and StaticMeshComponent /Game/cats.cats:PersistentLevel.mesa_10.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:018][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.preuba_sillon_4.StaticMeshComponent0 and StaticMeshComponent /Game/cats.cats:PersistentLevel.preuba_sillon_4.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:018][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.SM_Door_13.StaticMeshComponent0 and StaticMeshComponent /Game/cats.cats:PersistentLevel.SM_Door_13.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:018][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.SM_DoorFrame_22.StaticMeshComponent0 and StaticMeshComponent /Game/cats.cats:PersistentLevel.SM_DoorFrame_22.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:018][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.SM_GlassWindow_16.StaticMeshComponent0 and StaticMeshComponent /Game/cats.cats:PersistentLevel.SM_GlassWindow_16.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:018][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.SM_TableRound2.StaticMeshComponent0 and StaticMeshComponent /Game/cats.cats:PersistentLevel.SM_TableRound2.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:019][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.SM_TableRound3.StaticMeshComponent0 and StaticMeshComponent /Game/cats.cats:PersistentLevel.SM_TableRound3.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:019][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.SM_TableRound_10.StaticMeshComponent0 and StaticMeshComponent /Game/cats.cats:PersistentLevel.SM_TableRound_10.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:019][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.tele_7.StaticMeshComponent0 and StaticMeshComponent /Game/cats.cats:PersistentLevel.tele_7.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:244][871]LogMaterial: Missing cached shader map for material M_StatueGlass, compiling. 
+[2015.10.09-01.11.45:388][871]LogAIModule: Creating AISystem for world cats
+[2015.10.09-01.11.45:498][871]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/catsmejorado.catsmejorado:PersistentLevel.AtmosphericFog_1.ArrowComponent0 and ArrowComponent /Game/catsnivel1.catsnivel1:PersistentLevel.AtmosphericFog_1.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:498][871]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/cats.cats:PersistentLevel.LightSource.ArrowComponent0 and ArrowComponent /Game/catsnivel1.catsnivel1:PersistentLevel.LightSource.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:499][871]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/cats.cats:PersistentLevel.ThirdPersonCharacter_C_1.Arrow and ArrowComponent /Game/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_1.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:499][871]LogUObjectGlobals:Warning: Guid is in use by AtmosphericFogComponent /Game/catsmejorado.catsmejorado:PersistentLevel.AtmosphericFog_1.AtmosphericFogComponent0 and AtmosphericFogComponent /Game/catsnivel1.catsnivel1:PersistentLevel.AtmosphericFog_1.AtmosphericFogComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:499][871]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/catsmejorado.catsmejorado:PersistentLevel.AtmosphericFog_1.Sprite and BillboardComponent /Game/catsnivel1.catsnivel1:PersistentLevel.AtmosphericFog_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:499][871]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/cats.cats:PersistentLevel.SphereReflectionCapture.Sprite and BillboardComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SphereReflectionCapture.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:499][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel10.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel10.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:499][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel11.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel11.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:499][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel12.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel12.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:499][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel13.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel13.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:499][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel14.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel14.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:499][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel15.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel15.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:500][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel16.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel16.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:500][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel2.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel2.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:500][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel3.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel3.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:500][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel4.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel4.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:500][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel5.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel5.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:500][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel6.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel6.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:500][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel7.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel7.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:500][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel8.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel8.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:500][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel9.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel9.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:500][871]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/catsmejorado.catsmejorado:PersistentLevel.CajaPincel_14.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel_14.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:500][871]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/catsmejorado.catsmejorado:PersistentLevel.Cone2.CollisionCylinder and CapsuleComponent /Game/catsnivel1.catsnivel1:PersistentLevel.Cone2.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:500][871]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/catsmejorado.catsmejorado:PersistentLevel.Cube.CollisionCylinder and CapsuleComponent /Game/catsnivel1.catsnivel1:PersistentLevel.Cube.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:500][871]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/catsmejorado.catsmejorado:PersistentLevel.Cube2.CollisionCylinder and CapsuleComponent /Game/catsnivel1.catsnivel1:PersistentLevel.Cube2.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:500][871]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/cats.cats:PersistentLevel.ThirdPersonCharacter_C_1.CollisionCylinder and CapsuleComponent /Game/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_1.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:500][871]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/cats.cats:PersistentLevel.ThirdPersonCharacter_C_1.CharMoveComp and CharacterMovementComponent /Game/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_1.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:501][871]LogUObjectGlobals:Warning: Guid is in use by DirectionalLightComponent /Game/cats.cats:PersistentLevel.LightSource.LightComponent0 and DirectionalLightComponent /Game/catsnivel1.catsnivel1:PersistentLevel.LightSource.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:501][871]LogUObjectGlobals:Warning: Guid is in use by DrawSphereComponent /Game/cats.cats:PersistentLevel.SphereReflectionCapture.DrawRadius0 and DrawSphereComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SphereReflectionCapture.DrawRadius0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:501][871]LogUObjectGlobals:Warning: Guid is in use by DrawSphereComponent /Game/cats.cats:PersistentLevel.SphereReflectionCapture.DrawRadius1 and DrawSphereComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SphereReflectionCapture.DrawRadius1, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:501][871]LogUObjectGlobals:Warning: Guid is in use by InteractiveFoliageComponent /Game/catsmejorado.catsmejorado:PersistentLevel.Cone2.StaticMeshComponent0 and InteractiveFoliageComponent /Game/catsnivel1.catsnivel1:PersistentLevel.Cone2.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:501][871]LogUObjectGlobals:Warning: Guid is in use by InteractiveFoliageComponent /Game/catsmejorado.catsmejorado:PersistentLevel.Cube.StaticMeshComponent0 and InteractiveFoliageComponent /Game/catsnivel1.catsnivel1:PersistentLevel.Cube.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:501][871]LogUObjectGlobals:Warning: Guid is in use by InteractiveFoliageComponent /Game/catsmejorado.catsmejorado:PersistentLevel.Cube2.StaticMeshComponent0 and InteractiveFoliageComponent /Game/catsnivel1.catsnivel1:PersistentLevel.Cube2.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:516][871]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/cats.cats:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0 and SkeletalMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:516][871]LogUObjectGlobals:Warning: Guid is in use by SphereReflectionCaptureComponent /Game/cats.cats:PersistentLevel.SphereReflectionCapture.NewReflectionComponent and SphereReflectionCaptureComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SphereReflectionCapture.NewReflectionComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:540][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.mesa_10.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.mesa_10.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:540][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.preuba_sillon_4.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.preuba_sillon_4.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:541][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.SM_Door_13.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SM_Door_13.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:541][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.SM_DoorFrame_22.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SM_DoorFrame_22.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:541][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.SM_GlassWindow_16.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SM_GlassWindow_16.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:541][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.SM_TableRound2.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SM_TableRound2.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:541][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.SM_TableRound3.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SM_TableRound3.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:541][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.SM_TableRound_10.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SM_TableRound_10.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:542][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.tachuela.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.tachuela.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:542][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.tachuela2.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.tachuela2.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.45:542][871]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/catsmejorado.catsmejorado:PersistentLevel.tele_7.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.tele_7.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.11.46:704][871]LogAIModule: Creating AISystem for world catsnivel1
+[2015.10.09-01.11.50:179][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/catsmejorado" FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/catsmejorado.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.09-01.11.51:307][873]LogSavePackage: Save=1041.873413ms
+[2015.10.09-01.11.51:307][873]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/catsmejorado5EF26FDD4F82CBADE89D8785935D59EF.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/catsmejorado.umap'
+[2015.10.09-01.11.51:316][873]LogSavePackage: Total save time: 1090.262316ms
+[2015.10.09-01.11.51:316][873]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/catsmejorado.umap
+[2015.10.09-01.11.51:375][873]LogFileHelpers: Saving map 'catsmejorado' took 1.364
+[2015.10.09-01.11.51:380][873]Cmd: MAP LOAD FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/cats.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.10.09-01.11.51:380][873]LightingResults: New page: Lighting Build
+[2015.10.09-01.11.51:419][873]LoadErrors: New page: Loading map: cats.umap
+[2015.10.09-01.11.51:421][873]MapCheck: New page: Map Check
+[2015.10.09-01.11.51:421][873]LightingResults: New page: Lighting Build
+[2015.10.09-01.11.51:499][873]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F437024220
+[2015.10.09-01.11.51:787][873]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.09-01.11.51:895][873]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.09-01.11.52:045][873]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 149.837ms to complete.
+[2015.10.09-01.11.52:046][873]LogFileHelpers: Loading map 'cats' took 0.671
+[2015.10.09-01.12.00:744][180]LogMetaData: Removing '/Game/Cats/cats.SKEL_cats_C' ref from Metadata '/Game/cats.PackageMetaData'
+[2015.10.09-01.12.00:744][180]LogMetaData: Removing '/Game/Cats/cats.cats_C' ref from Metadata '/Game/cats.PackageMetaData'
+[2015.10.09-01.12.00:993][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cats/cats" FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/cats.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.09-01.12.01:269][180]LogSavePackage: Save=226.053421ms
+[2015.10.09-01.12.01:269][180]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/catsDC2E7533416DD2144A43FB9E24AB2167.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/cats.umap'
+[2015.10.09-01.12.01:278][180]LogSavePackage: Total save time: 237.341877ms
+[2015.10.09-01.12.01:278][180]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/cats.umap
+[2015.10.09-01.12.01:340][180]LogFileHelpers: Saving map 'cats' took 0.504
+[2015.10.09-01.12.02:923][200]LogAIModule: Creating AISystem for world catsmejorado
+[2015.10.09-01.12.07:871][441]LogMetaData: Removing '/Game/Cats/catsmejorado.SKEL_catsmejorado_C' ref from Metadata '/Game/catsmejorado.PackageMetaData'
+[2015.10.09-01.12.07:871][441]LogMetaData: Removing '/Game/Cats/catsmejorado.catsmejorado_C' ref from Metadata '/Game/catsmejorado.PackageMetaData'
+[2015.10.09-01.12.08:088][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cats/catsmejorado" FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/catsmejorado.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.09-01.12.09:061][441]LogSavePackage: Save=897.858215ms
+[2015.10.09-01.12.09:061][441]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/catsmejoradoC97BEDB845EA3EFF6836BF834C3EF136.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/catsmejorado.umap'
+[2015.10.09-01.12.09:079][441]LogSavePackage: Total save time: 919.571433ms
+[2015.10.09-01.12.09:079][441]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/catsmejorado.umap
+[2015.10.09-01.12.09:085][441]LogFileHelpers: Saving map 'catsmejorado' took 1.150
+[2015.10.09-01.12.10:941][473]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.AtmosphericFog_1.ArrowComponent0 and ArrowComponent /Game/catsnivel1.catsnivel1:PersistentLevel.AtmosphericFog_1.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:941][473]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Cats/cats.cats:PersistentLevel.LightSource.ArrowComponent0 and ArrowComponent /Game/catsnivel1.catsnivel1:PersistentLevel.LightSource.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:941][473]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Cats/cats.cats:PersistentLevel.ThirdPersonCharacter_C_1.Arrow and ArrowComponent /Game/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_1.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:941][473]LogUObjectGlobals:Warning: Guid is in use by AtmosphericFogComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.AtmosphericFog_1.AtmosphericFogComponent0 and AtmosphericFogComponent /Game/catsnivel1.catsnivel1:PersistentLevel.AtmosphericFog_1.AtmosphericFogComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:941][473]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.AtmosphericFog_1.Sprite and BillboardComponent /Game/catsnivel1.catsnivel1:PersistentLevel.AtmosphericFog_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:941][473]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/Cats/cats.cats:PersistentLevel.SphereReflectionCapture.Sprite and BillboardComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SphereReflectionCapture.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:942][473]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.CajaPincel10.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel10.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:942][473]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.CajaPincel11.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel11.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:942][473]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.CajaPincel12.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel12.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:942][473]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.CajaPincel13.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel13.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:942][473]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.CajaPincel14.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel14.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:942][473]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.CajaPincel15.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel15.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:942][473]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.CajaPincel16.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel16.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:942][473]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.CajaPincel2.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel2.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:942][473]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.CajaPincel3.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel3.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:942][473]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.CajaPincel4.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel4.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:942][473]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.CajaPincel5.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel5.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:942][473]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.CajaPincel6.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel6.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:942][473]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.CajaPincel7.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel7.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:943][473]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.CajaPincel8.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel8.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:943][473]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.CajaPincel9.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel9.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:943][473]LogUObjectGlobals:Warning: Guid is in use by BrushComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.CajaPincel_14.BrushComponent0 and BrushComponent /Game/catsnivel1.catsnivel1:PersistentLevel.CajaPincel_14.BrushComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:943][473]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.Cone2.CollisionCylinder and CapsuleComponent /Game/catsnivel1.catsnivel1:PersistentLevel.Cone2.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:943][473]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.Cube.CollisionCylinder and CapsuleComponent /Game/catsnivel1.catsnivel1:PersistentLevel.Cube.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:943][473]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.Cube2.CollisionCylinder and CapsuleComponent /Game/catsnivel1.catsnivel1:PersistentLevel.Cube2.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:943][473]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Cats/cats.cats:PersistentLevel.ThirdPersonCharacter_C_1.CollisionCylinder and CapsuleComponent /Game/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_1.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:943][473]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Cats/cats.cats:PersistentLevel.ThirdPersonCharacter_C_1.CharMoveComp and CharacterMovementComponent /Game/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_1.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:943][473]LogUObjectGlobals:Warning: Guid is in use by DirectionalLightComponent /Game/Cats/cats.cats:PersistentLevel.LightSource.LightComponent0 and DirectionalLightComponent /Game/catsnivel1.catsnivel1:PersistentLevel.LightSource.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:944][473]LogUObjectGlobals:Warning: Guid is in use by DrawSphereComponent /Game/Cats/cats.cats:PersistentLevel.SphereReflectionCapture.DrawRadius0 and DrawSphereComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SphereReflectionCapture.DrawRadius0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:944][473]LogUObjectGlobals:Warning: Guid is in use by DrawSphereComponent /Game/Cats/cats.cats:PersistentLevel.SphereReflectionCapture.DrawRadius1 and DrawSphereComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SphereReflectionCapture.DrawRadius1, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:944][473]LogUObjectGlobals:Warning: Guid is in use by InteractiveFoliageComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.Cone2.StaticMeshComponent0 and InteractiveFoliageComponent /Game/catsnivel1.catsnivel1:PersistentLevel.Cone2.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:944][473]LogUObjectGlobals:Warning: Guid is in use by InteractiveFoliageComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.Cube.StaticMeshComponent0 and InteractiveFoliageComponent /Game/catsnivel1.catsnivel1:PersistentLevel.Cube.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:944][473]LogUObjectGlobals:Warning: Guid is in use by InteractiveFoliageComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.Cube2.StaticMeshComponent0 and InteractiveFoliageComponent /Game/catsnivel1.catsnivel1:PersistentLevel.Cube2.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:951][473]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Cats/cats.cats:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0 and SkeletalMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:952][473]LogUObjectGlobals:Warning: Guid is in use by SphereReflectionCaptureComponent /Game/Cats/cats.cats:PersistentLevel.SphereReflectionCapture.NewReflectionComponent and SphereReflectionCaptureComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SphereReflectionCapture.NewReflectionComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:953][473]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.mesa_10.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.mesa_10.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:953][473]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.preuba_sillon_4.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.preuba_sillon_4.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:953][473]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.SM_Door_13.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SM_Door_13.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:954][473]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.SM_DoorFrame_22.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SM_DoorFrame_22.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:954][473]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.SM_GlassWindow_16.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SM_GlassWindow_16.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:954][473]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.SM_TableRound2.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SM_TableRound2.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:954][473]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.SM_TableRound3.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SM_TableRound3.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:954][473]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.SM_TableRound_10.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.SM_TableRound_10.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:954][473]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.tachuela.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.tachuela.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:954][473]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.tachuela2.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.tachuela2.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.10:955][473]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.tele_7.StaticMeshComponent0 and StaticMeshComponent /Game/catsnivel1.catsnivel1:PersistentLevel.tele_7.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-01.12.11:019][473]LogAIModule: Creating AISystem for world catsnivel1
+[2015.10.09-01.12.14:307][645]LogMetaData: Removing '/Game/Cats/catsnivel1.SKEL_catsnivel1_C' ref from Metadata '/Game/catsnivel1.PackageMetaData'
+[2015.10.09-01.12.14:307][645]LogMetaData: Removing '/Game/Cats/catsnivel1.catsnivel1_C' ref from Metadata '/Game/catsnivel1.PackageMetaData'
+[2015.10.09-01.12.14:550][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cats/catsnivel1" FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/catsnivel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.09-01.12.14:881][645]LogSavePackage: Save=249.228149ms
+[2015.10.09-01.12.14:881][645]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/catsnivel10FFADBE245AAA93DBC60449046B1FF6B.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/catsnivel1.umap'
+[2015.10.09-01.12.14:890][645]LogSavePackage: Total save time: 260.753013ms
+[2015.10.09-01.12.14:890][645]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/catsnivel1.umap
+[2015.10.09-01.12.14:898][645]LogFileHelpers: Saving map 'catsnivel1' took 0.500
+[2015.10.09-01.12.24:397][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cats/lambert2" FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/lambert2.uasset" SILENT=true
+[2015.10.09-01.12.24:422][932]LogSavePackage: Save=21.874458ms
+[2015.10.09-01.12.24:422][932]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/lambert2B8E184CB48E91DBA24B128AFAF688E5E.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/lambert2.uasset'
+[2015.10.09-01.12.24:470][932]LogSavePackage: Total save time: 69.981601ms
+[2015.10.09-01.12.24:470][932]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/lambert2.uasset
+[2015.10.09-01.12.24:483][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/lambert2" FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/lambert2.uasset" SILENT=true
+[2015.10.09-01.12.24:509][932]LogSavePackage: Save=2.562490ms
+[2015.10.09-01.12.24:509][932]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/lambert2AED680AF47428F5BE7D5748DDD9304FF.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/lambert2.uasset'
+[2015.10.09-01.12.24:528][932]LogSavePackage: Total save time: 35.157464ms
+[2015.10.09-01.12.24:528][932]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/lambert2.uasset
+[2015.10.09-01.12.30:235][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cats/preuba_sillon" FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/preuba_sillon.uasset" SILENT=true
+[2015.10.09-01.12.30:258][163]LogSavePackage: Save=19.731804ms
+[2015.10.09-01.12.30:258][163]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/preuba_sillon22E4E1A1475FBFEEC9AD819C4550BDB1.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/preuba_sillon.uasset'
+[2015.10.09-01.12.30:264][163]LogSavePackage: Total save time: 26.746720ms
+[2015.10.09-01.12.30:265][163]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/preuba_sillon.uasset
+[2015.10.09-01.12.30:276][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/preuba_sillon" FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/preuba_sillon.uasset" SILENT=true
+[2015.10.09-01.12.30:311][163]LogSavePackage: Save=2.319737ms
+[2015.10.09-01.12.30:311][163]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/preuba_sillon436C7E1848160B6DB10B8C9973F02C2D.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/preuba_sillon.uasset'
+[2015.10.09-01.12.30:320][163]LogSavePackage: Total save time: 29.858574ms
+[2015.10.09-01.12.30:320][163]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/preuba_sillon.uasset
+[2015.10.09-01.17.21:817][641]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-01.17.21:817][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-01.17.21:817][641]PIE: New page: PIE session: cats (Oct 8, 2015, 3:17:21 PM)
+[2015.10.09-01.17.21:817][641]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-01.17.21:920][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102301s)
+[2015.10.09-01.17.21:922][641]LogAIModule: Creating AISystem for world cats
+[2015.10.09-01.17.21:922][641]LogPlayLevel: PIE: World Init took: (0.002411s)
+[2015.10.09-01.17.21:922][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (0.105070s)
+[2015.10.09-01.17.21:972][641]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-01.17.21:983][641]LogInit: FAudioDevice initialized.
+[2015.10.09-01.17.22:025][641]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-01.17.22:041][641]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-20.17.22
+[2015.10.09-01.17.22:042][641]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-01.17.22:042][641]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-01.17.22:043][641]LogWorld: Bringing up level for play took: 0.016606
+[2015.10.09-01.17.22:046][641]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats -0.219
+[2015.10.09-01.17.22:046][641]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-01.19.20:222][835]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-01.19.20:298][835]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-01.19.20:342][835]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F43BB27CE0
+[2015.10.09-01.19.24:817][ 20]LogRenderer: Reallocating scene render targets to support 1032x500 (Frame:14982).
+[2015.10.09-01.19.59:177][472]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.10.09-01.19.59:178][472]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.10.09-01.19.59:178][472]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.10.09-01.19.59:204][473]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.10.09-01.19.59:204][473]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.10.09-01.19.59:205][473]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.10.09-01.19.59:206][473]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.10.09-01.19.59:207][473]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.10.09-01.19.59:207][473]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.10.09-01.19.59:228][474]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.10.09-01.19.59:228][474]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.10.09-01.19.59:232][474]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.10.09-01.19.59:233][474]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.10.09-01.19.59:250][475]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.10.09-01.19.59:251][475]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.10.09-01.19.59:257][475]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.10.09-01.19.59:257][475]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.10.09-01.20.25:611][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-01.20.25:612][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.10.09-01.20.25:662][152]LogMetaData: Removing '/Game/Cats/Character.SKEL_Character_C' ref from Metadata '/Game/Cats/ThirdPersonCharacter.PackageMetaData'
+[2015.10.09-01.20.25:662][152]LogMetaData: Removing '/Game/Cats/Character.Character_C' ref from Metadata '/Game/Cats/ThirdPersonCharacter.PackageMetaData'
+[2015.10.09-01.20.25:758][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cats/Character" FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/Character.uasset" SILENT=true
+[2015.10.09-01.20.25:952][152]LogSavePackage: Save=191.299042ms
+[2015.10.09-01.20.25:952][152]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Character3786673942E361FE05C1EE938047C4BA.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/Character.uasset'
+[2015.10.09-01.20.25:959][152]LogSavePackage: Total save time: 198.515043ms
+[2015.10.09-01.20.25:959][152]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Content/Cats/Character.uasset
+[2015.10.09-01.20.25:995][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-01.20.53:352][536]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-01.20.53:352][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-01.20.53:352][536]PIE: New page: PIE session: cats (Oct 8, 2015, 3:20:53 PM)
+[2015.10.09-01.20.53:352][536]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-01.20.53:459][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.106428s)
+[2015.10.09-01.20.53:461][536]LogAIModule: Creating AISystem for world cats
+[2015.10.09-01.20.53:461][536]LogPlayLevel: PIE: World Init took: (0.002150s)
+[2015.10.09-01.20.53:461][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (0.108956s)
+[2015.10.09-01.20.53:461][536]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-01.20.53:514][536]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-01.20.53:524][536]LogInit: FAudioDevice initialized.
+[2015.10.09-01.20.53:570][536]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-01.20.53:586][536]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-20.20.53
+[2015.10.09-01.20.53:586][536]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-01.20.53:586][536]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-01.20.53:587][536]LogWorld: Bringing up level for play took: 0.015909
+[2015.10.09-01.20.53:589][536]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats -0.676
+[2015.10.09-01.20.53:600][536]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-01.21.01:474][679]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-01.21.01:531][679]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-01.21.01:574][679]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4510A9EE0
+[2015.10.09-01.21.05:641][842]MapCheck: New page: Map Check
+[2015.10.09-01.21.05:661][842]Cmd: MAP REBUILD ALLVISIBLE
+[2015.10.09-01.21.05:661][842]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.09-01.21.05:911][842]LogEditorServer: Cleared 1 NULL BSP materials after rebuild.
+[2015.10.09-01.21.05:911][842]LightingResults: New page: Lighting Build - Oct 8, 2015, 3:21:05 PM
+[2015.10.09-01.21.24:473][842]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.10.09-01.21.24:474][842]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.10.09-01.21.24:474][842]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.10.09-01.21.24:474][842]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.10.09-01.21.24:474][842]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.10.09-01.21.24:474][842]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.10.09-01.21.24:666][842]LogEditorBuildUtils: Build time 0:00:19
+[2015.10.09-01.21.24:681][842]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_StatueGlass, compiling. 
+[2015.10.09-01.21.24:690][842]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_StatueGlass, compiling. 
+[2015.10.09-01.23.51:146][205]LightingResults:Error: Error playground_gatito Object has overlapping UVs.
+[2015.10.09-01.23.51:146][205]LightingResults: Info playground_gatito Lightmap UV are overlapping by 47.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-01.24.10:158][971]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.09-01.24.11:552][971]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 107 classes and 0 folders.
+[2015.10.09-01.24.30:991][784]Job is a success!
+[2015.10.09-01.24.32:062][785]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.10.09-01.24.32:363][785]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.10.09-01.24.32:373][785]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.10.09-01.24.32:374][785]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2015.10.09-01.24.32:382][785]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.10.09-01.24.32:433][785]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.10.09-01.24.32:498][785]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2015.10.09-01.24.32:532][785]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.10.09-01.24.32:628][785]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.10.09-01.24.32:747][785]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2015.10.09-01.24.32:818][785]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.10.09-01.24.32:998][785]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.10.09-01.24.33:348][785]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2015.10.09-01.24.33:491][785]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.10.09-01.24.33:741][785]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.10.09-01.24.34:644][785]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2015.10.09-01.24.34:769][785]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2015.10.09-01.24.34:799][785]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2015.10.09-01.24.34:806][785]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8)
+[2015.10.09-01.24.34:809][785]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
+[2015.10.09-01.24.34:860][785]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-01.24.34:963][785]Lightmass on AGISE: 3:04 min total, 516 ms importing, 127 ms setup, 19.0 sec photons, 2:44 min processing, 0 ms extra exporting [62/62 mappings]. Threads: 5:29 min total, 2:39 min processing.
+[2015.10.09-01.24.34:999][785]LogStaticLightingSystem: Illumination: 3:29 min (3.02 sec encoding lightmaps)
+[2015.10.09-01.24.34:999][785]LogStaticLightingSystem: Lightmap texture memory:  1.8 MB (0.4 MB streaming, 1.3 MB non-streaming), 10 textures
+[2015.10.09-01.24.34:999][785]LogStaticLightingSystem: Shadowmap texture memory: 1.8 MB (0.5 MB streaming, 1.3 MB non-streaming), 10 textures
+[2015.10.09-01.24.35:685][786]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.10.09-01.24.35:686][786]MapCheck: New page: cats - Oct 8, 2015, 3:24:35 PM
+[2015.10.09-01.24.35:842][786]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 156.407ms to complete.
+[2015.10.09-01.25.35:933][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cats/cats" FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/cats_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.10.09-01.25.36:396][766]LogSavePackage: Save=422.824829ms
+[2015.10.09-01.25.36:396][766]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/cats_Auto2C2D0EE3D4CDDCC79566D20B86BED0A6E.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/cats_Auto2.umap'
+[2015.10.09-01.25.36:402][766]LogSavePackage: Total save time: 464.931529ms
+[2015.10.09-01.25.36:402][766]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/cats_Auto2.umap
+[2015.10.09-01.25.36:406][766]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Cats/cats' took 0.565
+[2015.10.09-01.25.36:406][766]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.565
+[2015.10.09-01.25.36:423][766]LogSavePackage: Save=2.283052ms
+[2015.10.09-01.25.36:423][766]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/ThirdPersonCharacter_Auto2F07CCB244B81C6ECACB0DD9FD08DC49E.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/ThirdPersonCharacter_Auto2.uasset'
+[2015.10.09-01.25.36:430][766]LogSavePackage: Total save time: 9.717353ms
+[2015.10.09-01.25.36:430][766]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/ThirdPersonCharacter_Auto2.uasset
+[2015.10.09-01.25.36:438][766]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cats/Character] ([1] browsable assets)...
+[2015.10.09-01.25.36:546][766]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Cats/Character.Character]
+[2015.10.09-01.25.36:546][766]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cats/Character]
+[2015.10.09-01.25.36:546][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cats/Character" FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/Character_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.10.09-01.25.36:721][766]LogSavePackage: Save=157.430969ms
+[2015.10.09-01.25.36:721][766]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Character_Auto28E1446F94B672310BFD719A72C4D6544.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/Character_Auto2.uasset'
+[2015.10.09-01.25.36:764][766]LogSavePackage: Total save time: 213.363715ms
+[2015.10.09-01.25.36:764][766]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/Character_Auto2.uasset
+[2015.10.09-01.25.36:764][766]LogFileHelpers: Auto-saving content packages took 0.355
+[2015.10.09-01.27.39:046][647]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-01.27.39:046][647]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.10.09-01.27.39:052][647]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-01.27.39:066][647]LogPlayLevel: [PlayLevel] Compiling Character before play...
+[2015.10.09-01.27.39:318][647]LogPlayLevel: PlayLevel: Blueprint regeneration took 271 ms (1 blueprints)
+[2015.10.09-01.27.39:401][647]PIE: New page: PIE session: cats (Oct 8, 2015, 3:27:39 PM)
+[2015.10.09-01.27.39:401][647]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-01.27.39:525][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123972s)
+[2015.10.09-01.27.39:527][647]LogAIModule: Creating AISystem for world cats
+[2015.10.09-01.27.39:527][647]LogPlayLevel: PIE: World Init took: (0.001835s)
+[2015.10.09-01.27.39:527][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (0.126173s)
+[2015.10.09-01.27.39:615][647]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-01.27.39:627][647]LogInit: FAudioDevice initialized.
+[2015.10.09-01.27.39:676][647]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-01.27.39:692][647]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-20.27.39
+[2015.10.09-01.27.39:692][647]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-01.27.39:692][647]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-01.27.39:693][647]LogWorld: Bringing up level for play took: 0.016374
+[2015.10.09-01.27.39:696][647]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats 1.431
+[2015.10.09-01.27.39:696][647]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-01.28.30:500][776]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-01.28.30:600][776]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-01.28.30:722][777]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F44972C220
+[2015.10.09-01.29.06:080][353]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Character', cached variable property's owner is '/Game/Cats/Character.SKEL_Character_C'
+[2015.10.09-01.29.06:903][396]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Character', cached variable property's owner is '/Game/Cats/Character.SKEL_Character_C'
+[2015.10.09-01.29.09:322][539]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Character', cached variable property's owner is '/Game/Cats/Character.SKEL_Character_C'
+[2015.10.09-01.59.55:790][171]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.00.06:355][199]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-02.00.06:472][199]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Cats/cats' took 0.116
+[2015.10.09-02.00.06:484][199]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cats/Character] ([1] browsable assets)...
+[2015.10.09-02.00.06:632][199]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Cats/Character.Character]
+[2015.10.09-02.00.06:632][199]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cats/Character]
+[2015.10.09-02.00.06:632][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cats/Character" FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/Character_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2015.10.09-02.00.06:827][199]LogSavePackage: Save=175.455811ms
+[2015.10.09-02.00.06:827][199]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Character_Auto3DBA49997457A6FCD3ED63B8D037E8231.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/Character_Auto3.uasset'
+[2015.10.09-02.00.06:833][199]LogSavePackage: Total save time: 195.079822ms
+[2015.10.09-02.00.06:833][199]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/Character_Auto3.uasset
+[2015.10.09-02.00.06:833][199]LogFileHelpers: Auto-saving content packages took 0.360
+[2015.10.09-02.07.37:838][151]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.07.43:839][169]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.08.08:511][243]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.08.08:845][244]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.09.17:606][402]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.10.06:843][284]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.10.09:775][428]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.10.47:623][657]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.11.19:768][536]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.11.20:514][544]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.12.09:726][439]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.12.10:227][440]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.12.10:727][441]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.15.30:497][ 21]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.16.15:573][608]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.16.16:492][611]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.16.17:673][626]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.16.18:648][637]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.16.19:770][657]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.16.30:494][257]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.16.30:995][258]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.16.44:649][ 49]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.16.49:994][316]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.17.37:415][402]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-02.17.40:953][450]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.10.09-02.17.49:115][560]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.10.09-02.17.52:145][601]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.10.09-02.17.55:091][642]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.10.09-02.17.59:637][762]BlueprintLog: New page: Compile Character
+[2015.10.09-02.17.59:934][762]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.10.09-02.18.00:026][762]BlueprintEditorCompileResults: Info [7226.63] Compile of Character successful! [in 388 ms]
+[2015.10.09-02.18.44:067][ 49]LogActorComponent: ReregisterComponent: (/Game/Cats/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0) Not currently registered. Aborting.
+[2015.10.09-02.18.44:067][ 49]LogActorComponent: ReregisterComponent: (/Game/Cats/catsmejorado.catsmejorado:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0) Not currently registered. Aborting.
+[2015.10.09-02.18.44:080][ 49]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-02.18.44:080][ 49]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.10.09-02.18.47:461][ 94]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.10.09-02.18.49:322][143]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.18.49:322][143]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.10.09-02.18.49:335][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.10.09-02.18.49:349][143]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2015.10.09-02.18.49:566][143]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Cats/cats.cats:PersistentLevel.ThirdPersonCharacter_C_1.CollisionCylinder and CapsuleComponent /Game/Cats/cats.cats:PersistentLevel.ThirdPersonCharacter_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-02.18.49:567][143]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Cats/cats.cats:PersistentLevel.ThirdPersonCharacter_C_1.Arrow and ArrowComponent /Game/Cats/cats.cats:PersistentLevel.ThirdPersonCharacter_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-02.18.49:567][143]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Cats/cats.cats:PersistentLevel.ThirdPersonCharacter_C_1.CharMoveComp and CharacterMovementComponent /Game/Cats/cats.cats:PersistentLevel.ThirdPersonCharacter_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-02.18.49:567][143]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Cats/cats.cats:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0 and SkeletalMeshComponent /Game/Cats/cats.cats:PersistentLevel.ThirdPersonCharacter_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-02.18.49:570][143]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Cats/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_1.CollisionCylinder and CapsuleComponent /Game/Cats/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_2.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-02.18.49:570][143]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Cats/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_1.Arrow and ArrowComponent /Game/Cats/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_2.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-02.18.49:570][143]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Cats/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_1.CharMoveComp and CharacterMovementComponent /Game/Cats/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_2.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-02.18.49:571][143]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Cats/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0 and SkeletalMeshComponent /Game/Cats/catsnivel1.catsnivel1:PersistentLevel.ThirdPersonCharacter_C_2.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-02.18.49:573][143]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.ThirdPersonCharacter_C_1.CollisionCylinder and CapsuleComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.ThirdPersonCharacter_C_3.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-02.18.49:573][143]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.ThirdPersonCharacter_C_1.Arrow and ArrowComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.ThirdPersonCharacter_C_3.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-02.18.49:573][143]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.ThirdPersonCharacter_C_1.CharMoveComp and CharacterMovementComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.ThirdPersonCharacter_C_3.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-02.18.49:574][143]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0 and SkeletalMeshComponent /Game/Cats/catsmejorado.catsmejorado:PersistentLevel.ThirdPersonCharacter_C_3.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.09-02.18.49:687][143]LogPlayLevel: PlayLevel: Blueprint regeneration took 365 ms (1 blueprints)
+[2015.10.09-02.18.49:772][143]PIE: New page: PIE session: cats (Oct 8, 2015, 4:18:49 PM)
+[2015.10.09-02.18.49:772][143]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-02.18.49:880][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.107338s)
+[2015.10.09-02.18.49:882][143]LogAIModule: Creating AISystem for world cats
+[2015.10.09-02.18.49:882][143]LogPlayLevel: PIE: World Init took: (0.002368s)
+[2015.10.09-02.18.49:882][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (0.110056s)
+[2015.10.09-02.18.49:965][143]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-02.18.49:975][143]LogInit: FAudioDevice initialized.
+[2015.10.09-02.18.50:050][143]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-02.18.50:070][143]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-21.18.50
+[2015.10.09-02.18.50:070][143]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.18.50:070][143]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.18.50:071][143]LogWorld: Bringing up level for play took: 0.019408
+[2015.10.09-02.18.50:104][143]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats -0.135
+[2015.10.09-02.18.50:104][143]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.18.50:331][144]LogRenderer: Reallocating scene render targets to support 1116x628 (Frame:21820).
+[2015.10.09-02.19.51:542][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-02.21.59:757][240]LogHttp:Warning: Timeout processing Http request. 000000F40544E500
+[2015.10.09-02.23.44:865][427]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.23.45:013][427]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.23.45:097][427]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4442A0EA0
+[2015.10.09-02.23.52:475][572]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.24.10:456][292]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.10.09-02.24.22:019][801]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.24.22:019][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-02.24.22:020][801]PIE: New page: PIE session: cats (Oct 8, 2015, 4:24:22 PM)
+[2015.10.09-02.24.22:020][801]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-02.24.22:114][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094284s)
+[2015.10.09-02.24.22:116][801]LogAIModule: Creating AISystem for world cats
+[2015.10.09-02.24.22:117][801]LogPlayLevel: PIE: World Init took: (0.002408s)
+[2015.10.09-02.24.22:117][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (0.097075s)
+[2015.10.09-02.24.22:117][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-02.24.22:203][801]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-02.24.22:213][801]LogInit: FAudioDevice initialized.
+[2015.10.09-02.24.22:257][801]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-02.24.22:273][801]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-21.24.22
+[2015.10.09-02.24.22:273][801]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.24.22:273][801]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.24.22:275][801]LogWorld: Bringing up level for play took: 0.016410
+[2015.10.09-02.24.22:277][801]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats 0.038
+[2015.10.09-02.24.22:277][801]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.24.34:837][ 46]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.24.34:900][ 46]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.24.34:973][ 46]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F445DA4360
+[2015.10.09-02.25.19:364][504]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.25.19:365][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-02.25.19:365][504]PIE: New page: PIE session: cats (Oct 8, 2015, 4:25:19 PM)
+[2015.10.09-02.25.19:365][504]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-02.25.19:469][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.104190s)
+[2015.10.09-02.25.19:470][504]LogAIModule: Creating AISystem for world cats
+[2015.10.09-02.25.19:471][504]LogPlayLevel: PIE: World Init took: (0.001712s)
+[2015.10.09-02.25.19:471][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (0.106257s)
+[2015.10.09-02.25.19:566][504]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-02.25.19:578][504]LogInit: FAudioDevice initialized.
+[2015.10.09-02.25.19:620][504]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-02.25.19:637][504]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-21.25.19
+[2015.10.09-02.25.19:637][504]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.25.19:637][504]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.25.19:639][504]LogWorld: Bringing up level for play took: 0.017834
+[2015.10.09-02.25.19:641][504]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats -0.598
+[2015.10.09-02.25.19:642][504]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.25.26:930][631]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.25.26:990][631]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.25.27:111][632]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F404D63560
+[2015.10.09-02.25.43:845][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.25.43:846][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-02.25.43:846][272]PIE: New page: PIE session: cats (Oct 8, 2015, 4:25:43 PM)
+[2015.10.09-02.25.43:846][272]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-02.25.43:939][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093296s)
+[2015.10.09-02.25.43:941][272]LogAIModule: Creating AISystem for world cats
+[2015.10.09-02.25.43:941][272]LogPlayLevel: PIE: World Init took: (0.001775s)
+[2015.10.09-02.25.43:941][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (0.095423s)
+[2015.10.09-02.25.44:025][272]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-02.25.44:035][272]LogInit: FAudioDevice initialized.
+[2015.10.09-02.25.44:077][272]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-02.25.44:093][272]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-21.25.44
+[2015.10.09-02.25.44:094][272]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.25.44:094][272]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.25.44:095][272]LogWorld: Bringing up level for play took: 0.017339
+[2015.10.09-02.25.44:098][272]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats -0.141
+[2015.10.09-02.25.44:098][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.25.49:184][333]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.25.49:292][333]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.25.49:410][334]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F448119260
+[2015.10.09-02.26.00:338][629]LogActorFactory: Actor Factory created Cube
+[2015.10.09-02.26.00:724][636]LogActorFactory: Actor Factory created Cube
+[2015.10.09-02.26.11:952][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.10.09-02.27.57:502][433]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.27.57:503][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-02.27.57:503][433]PIE: New page: PIE session: cats (Oct 8, 2015, 4:27:57 PM)
+[2015.10.09-02.27.57:503][433]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-02.27.57:607][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.103961s)
+[2015.10.09-02.27.57:608][433]LogAIModule: Creating AISystem for world cats
+[2015.10.09-02.27.57:609][433]LogPlayLevel: PIE: World Init took: (0.001846s)
+[2015.10.09-02.27.57:609][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (0.106159s)
+[2015.10.09-02.27.57:703][433]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-02.27.57:716][433]LogInit: FAudioDevice initialized.
+[2015.10.09-02.27.57:763][433]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-02.27.57:781][433]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-21.27.57
+[2015.10.09-02.27.57:781][433]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.27.57:782][433]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.27.57:783][433]LogWorld: Bringing up level for play took: 0.018313
+[2015.10.09-02.27.57:786][433]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats -0.453
+[2015.10.09-02.27.57:786][433]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.28.03:003][514]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.28.03:119][514]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.28.03:237][515]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F44C302C00
+[2015.10.09-02.28.05:829][615]MapCheck: New page: Map Check
+[2015.10.09-02.28.05:861][615]Cmd: MAP REBUILD ALLVISIBLE
+[2015.10.09-02.28.05:863][615]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.09-02.28.06:186][615]LightingResults: New page: Lighting Build - Oct 8, 2015, 4:28:06 PM
+[2015.10.09-02.28.24:723][615]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.10.09-02.28.24:735][615]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.10.09-02.28.24:735][615]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.10.09-02.28.24:735][615]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.10.09-02.28.24:735][615]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.10.09-02.28.24:735][615]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.10.09-02.28.24:936][615]LogEditorBuildUtils: Build time 0:00:19
+[2015.10.09-02.28.26:043][616]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-02.28.26:119][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4347A62A0
+[2015.10.09-02.28.26:148][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cats/cats" FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/cats_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.10.09-02.28.26:540][616]LogSavePackage: Save=360.471344ms
+[2015.10.09-02.28.26:540][616]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/cats_Auto428E2897F463E5C67E9F9C895206A84A9.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/cats_Auto4.umap'
+[2015.10.09-02.28.26:545][616]LogSavePackage: Total save time: 393.484354ms
+[2015.10.09-02.28.26:545][616]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/cats_Auto4.umap
+[2015.10.09-02.28.26:548][616]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Cats/cats' took 0.505
+[2015.10.09-02.28.26:548][616]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.505
+[2015.10.09-02.28.26:562][616]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2015.10.09-02.28.26:632][616]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2015.10.09-02.28.26:632][616]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2015.10.09-02.28.26:799][616]LogSavePackage: Save=154.822739ms
+[2015.10.09-02.28.26:799][616]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/ThirdPersonCharacter_Auto46357BB8041493EDA105D3FB3D4EB288B.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto4.uasset'
+[2015.10.09-02.28.26:803][616]LogSavePackage: Total save time: 167.601220ms
+[2015.10.09-02.28.26:803][616]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto4.uasset
+[2015.10.09-02.28.26:811][616]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cats/Character] ([1] browsable assets)...
+[2015.10.09-02.28.26:865][616]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Cats/Character.Character]
+[2015.10.09-02.28.26:865][616]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cats/Character]
+[2015.10.09-02.28.26:865][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cats/Character" FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/Character_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2015.10.09-02.28.27:035][616]LogSavePackage: Save=157.760223ms
+[2015.10.09-02.28.27:035][616]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Character_Auto4D68BB3C74F86D3ACA6E6DC96DF109849.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/Character_Auto4.uasset'
+[2015.10.09-02.28.27:040][616]LogSavePackage: Total save time: 171.841688ms
+[2015.10.09-02.28.27:040][616]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/Character_Auto4.uasset
+[2015.10.09-02.28.27:040][616]LogFileHelpers: Auto-saving content packages took 0.488
+[2015.10.09-02.28.27:052][616]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2015.10.09-02.28.27:060][616]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2015.10.09-02.28.29:414][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-02.28.29:415][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.10.09-02.28.53:518][322]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.28.53:518][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-02.28.53:518][322]PIE: New page: PIE session: cats (Oct 8, 2015, 4:28:53 PM)
+[2015.10.09-02.28.53:519][322]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-02.28.53:615][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096566s)
+[2015.10.09-02.28.53:617][322]LogAIModule: Creating AISystem for world cats
+[2015.10.09-02.28.53:617][322]LogPlayLevel: PIE: World Init took: (0.002135s)
+[2015.10.09-02.28.53:618][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (0.099066s)
+[2015.10.09-02.28.53:618][322]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-02.28.53:704][322]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-02.28.53:716][322]LogInit: FAudioDevice initialized.
+[2015.10.09-02.28.53:758][322]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-02.28.53:777][322]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-21.28.53
+[2015.10.09-02.28.53:777][322]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.28.53:777][322]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.28.53:779][322]LogWorld: Bringing up level for play took: 0.018528
+[2015.10.09-02.28.53:781][322]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats -0.458
+[2015.10.09-02.28.53:781][322]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.29.46:392][497]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.29.46:490][497]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.29.46:566][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F405929C60
+[2015.10.09-02.29.56:152][700]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.30.11:715][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.30.11:715][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-02.30.11:715][335]PIE: New page: PIE session: cats (Oct 8, 2015, 4:30:11 PM)
+[2015.10.09-02.30.11:716][335]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-02.30.11:827][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.111320s)
+[2015.10.09-02.30.11:829][335]LogAIModule: Creating AISystem for world cats
+[2015.10.09-02.30.11:829][335]LogPlayLevel: PIE: World Init took: (0.002152s)
+[2015.10.09-02.30.11:829][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (0.113819s)
+[2015.10.09-02.30.11:914][335]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-02.30.11:924][335]LogInit: FAudioDevice initialized.
+[2015.10.09-02.30.11:971][335]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-02.30.11:988][335]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-21.30.11
+[2015.10.09-02.30.11:988][335]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.30.11:988][335]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.30.11:990][335]LogWorld: Bringing up level for play took: 0.017800
+[2015.10.09-02.30.11:992][335]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats -0.246
+[2015.10.09-02.30.11:992][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.30.35:744][816]LightingResults:Error: Error playground_gatito Object has overlapping UVs.
+[2015.10.09-02.30.35:744][816]LightingResults: Info playground_gatito Lightmap UV are overlapping by 47.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-02.30.42:384][952]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.30.42:446][952]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.30.42:542][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4487C0B80
+[2015.10.09-02.30.52:440][101]Job is a success!
+[2015.10.09-02.30.53:526][102]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.10.09-02.30.53:677][102]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.10.09-02.30.53:688][102]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.10.09-02.30.53:691][102]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2015.10.09-02.30.53:698][102]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.10.09-02.30.53:706][102]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.10.09-02.30.53:732][102]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2015.10.09-02.30.53:744][102]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.10.09-02.30.53:790][102]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.10.09-02.30.53:848][102]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2015.10.09-02.30.53:898][102]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.10.09-02.30.53:945][102]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.10.09-02.30.54:101][102]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2015.10.09-02.30.54:151][102]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.10.09-02.30.54:329][102]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.10.09-02.30.54:620][102]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8)
+[2015.10.09-02.30.54:626][102]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8)
+[2015.10.09-02.30.54:681][102]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-02.30.54:757][102]Lightmass on AGISE: 2:22 min total, 1.43 sec importing, 202 ms setup, 19.6 sec photons, 2:01 min processing, 0 ms extra exporting [67/67 mappings]. Threads: 4:02 min total, 1:57 min processing.
+[2015.10.09-02.30.54:804][102]LogStaticLightingSystem: Illumination: 2:48 min (1.18 sec encoding lightmaps)
+[2015.10.09-02.30.54:804][102]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 10 textures
+[2015.10.09-02.30.54:804][102]LogStaticLightingSystem: Shadowmap texture memory: 1.8 MB (0.5 MB streaming, 1.3 MB non-streaming), 12 textures
+[2015.10.09-02.30.55:767][103]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.30.55:770][103]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.10.09-02.30.55:770][103]MapCheck: New page: cats - Oct 8, 2015, 4:30:55 PM
+[2015.10.09-02.30.55:936][103]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.30.56:422][103]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.30.56:913][103]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.30.57:413][103]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.10.09-02.30.58:595][103]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 2,825.424ms to complete.
+[2015.10.09-02.31.07:781][436]LogActorFactory: Actor Factory created Cube
+[2015.10.09-02.31.08:958][442]LogActorFactory: Actor Factory created Cube
+[2015.10.09-02.31.23:493][ 60]PIE:Warning: Warning Scale ''X=0.000 Y=0.000 Z=9.500'' is not valid on object '/Game/Cats/cats.cats:PersistentLevel.Cube3_7.StaticMeshComponent0 Cube'.
+[2015.10.09-02.31.23:493][ 60]PIE:Warning: Warning Scale ''X=0.000 Y=0.000 Z=9.500'' is not valid on object '/Game/Cats/cats.cats:PersistentLevel.Cube3_7.StaticMeshComponent0 Cube'.
+[2015.10.09-02.31.23:914][ 69]PIE:Warning: Warning Scale ''X=0.000 Y=0.000 Z=9.500'' is not valid on object '/Game/Cats/cats.cats:PersistentLevel.Cube3_7.StaticMeshComponent0 Cube'.
+[2015.10.09-02.31.23:914][ 69]PIE:Warning: Warning Scale ''X=0.000 Y=0.000 Z=9.500'' is not valid on object '/Game/Cats/cats.cats:PersistentLevel.Cube3_7.StaticMeshComponent0 Cube'.
+[2015.10.09-02.31.31:065][254]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.31.31:065][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-02.31.31:065][254]PIE: New page: PIE session: cats (Oct 8, 2015, 4:31:31 PM)
+[2015.10.09-02.31.31:065][254]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-02.31.31:155][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.089586s)
+[2015.10.09-02.31.31:157][254]LogAIModule: Creating AISystem for world cats
+[2015.10.09-02.31.31:157][254]LogPlayLevel: PIE: World Init took: (0.002283s)
+[2015.10.09-02.31.31:158][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (0.092236s)
+[2015.10.09-02.31.31:242][254]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-02.31.31:252][254]LogInit: FAudioDevice initialized.
+[2015.10.09-02.31.31:293][254]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-02.31.31:311][254]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-21.31.31
+[2015.10.09-02.31.31:311][254]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.31.31:311][254]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.31.31:312][254]LogWorld: Bringing up level for play took: 0.017272
+[2015.10.09-02.31.31:315][254]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats 1.076
+[2015.10.09-02.31.31:315][254]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.31.40:423][410]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.31.40:517][410]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.31.40:635][411]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F45DF25A80
+[2015.10.09-02.31.43:335][508]MapCheck: New page: Map Check
+[2015.10.09-02.31.43:376][508]Cmd: MAP REBUILD ALLVISIBLE
+[2015.10.09-02.31.43:377][508]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.09-02.31.43:745][508]LightingResults: New page: Lighting Build - Oct 8, 2015, 4:31:43 PM
+[2015.10.09-02.32.02:239][508]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.10.09-02.32.02:239][508]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.10.09-02.32.02:239][508]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.10.09-02.32.02:239][508]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.10.09-02.32.02:239][508]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.10.09-02.32.02:239][508]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.10.09-02.32.02:435][508]LogEditorBuildUtils: Build time 0:00:19
+[2015.10.09-02.33.15:378][592]LightingResults:Error: Error playground_gatito Object has overlapping UVs.
+[2015.10.09-02.33.15:378][592]LightingResults: Info playground_gatito Lightmap UV are overlapping by 47.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-02.33.32:122][139]Job is a success!
+[2015.10.09-02.33.33:609][140]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2015.10.09-02.33.33:882][140]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.10.09-02.33.33:892][140]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.10.09-02.33.33:893][140]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2015.10.09-02.33.33:901][140]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.10.09-02.33.33:910][140]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.10.09-02.33.33:932][140]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2015.10.09-02.33.33:937][140]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.10.09-02.33.33:948][140]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.10.09-02.33.33:977][140]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2015.10.09-02.33.33:990][140]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.10.09-02.33.34:095][140]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.10.09-02.33.34:197][140]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2015.10.09-02.33.34:255][140]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.10.09-02.33.34:316][140]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.10.09-02.33.34:630][140]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2015.10.09-02.33.34:753][140]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.10.09-02.33.34:987][140]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.10.09-02.33.36:043][140]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8)
+[2015.10.09-02.33.36:129][140]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8)
+[2015.10.09-02.33.36:138][140]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8)
+[2015.10.09-02.33.36:142][140]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8)
+[2015.10.09-02.33.36:191][140]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-02.33.36:272][140]Lightmass on AGISE: 1:28 min total, 721 ms importing, 570 ms setup, 9.21 sec photons, 1:18 min processing, 0 ms extra exporting [68/68 mappings]. Threads: 2:36 min total, 1:13 min processing.
+[2015.10.09-02.33.36:322][140]LogStaticLightingSystem: Illumination: 1:52 min (2.89 sec encoding lightmaps)
+[2015.10.09-02.33.36:322][140]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (0.7 MB streaming, 1.3 MB non-streaming), 12 textures
+[2015.10.09-02.33.36:322][140]LogStaticLightingSystem: Shadowmap texture memory: 2.5 MB (0.5 MB streaming, 2.0 MB non-streaming), 16 textures
+[2015.10.09-02.33.38:421][141]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.10.09-02.33.38:422][141]MapCheck: New page: cats - Oct 8, 2015, 4:33:38 PM
+[2015.10.09-02.33.38:727][141]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 305.037ms to complete.
+[2015.10.09-02.34.24:065][546]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.34.24:065][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-02.34.24:065][546]PIE: New page: PIE session: cats (Oct 8, 2015, 4:34:24 PM)
+[2015.10.09-02.34.24:065][546]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-02.34.25:516][546]LogPlayLevel: PIE: StaticDuplicateObject took: (1.449448s)
+[2015.10.09-02.34.25:517][546]LogAIModule: Creating AISystem for world cats
+[2015.10.09-02.34.25:517][546]LogPlayLevel: PIE: World Init took: (0.001866s)
+[2015.10.09-02.34.25:518][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (1.451701s)
+[2015.10.09-02.34.25:605][546]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-02.34.25:617][546]LogInit: FAudioDevice initialized.
+[2015.10.09-02.34.25:661][546]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-02.34.25:678][546]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-21.34.25
+[2015.10.09-02.34.25:678][546]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.34.25:679][546]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.34.25:680][546]LogWorld: Bringing up level for play took: 0.017736
+[2015.10.09-02.34.25:683][546]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats 1.444
+[2015.10.09-02.34.25:683][546]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.38.30:191][640]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.38.30:287][640]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.38.30:411][641]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4510974C0
+[2015.10.09-02.38.38:353][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.10.09-02.38.39:240][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.10.09-02.38.40:566][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.10.09-02.38.45:149][218]Cmd: DELETE
+[2015.10.09-02.38.45:149][218]Cmd: ACTOR DELETE
+[2015.10.09-02.38.45:299][218]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.09-02.38.45:398][218]LogEditorActor: Deleted 1 Actors (0.112 secs)
+[2015.10.09-02.38.48:861][328]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.38.48:861][328]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-02.38.48:861][328]PIE: New page: PIE session: cats (Oct 8, 2015, 4:38:48 PM)
+[2015.10.09-02.38.48:861][328]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-02.38.48:980][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118666s)
+[2015.10.09-02.38.48:982][328]LogAIModule: Creating AISystem for world cats
+[2015.10.09-02.38.48:982][328]LogPlayLevel: PIE: World Init took: (0.001791s)
+[2015.10.09-02.38.48:982][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (0.120822s)
+[2015.10.09-02.38.49:065][328]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-02.38.49:075][328]LogInit: FAudioDevice initialized.
+[2015.10.09-02.38.49:119][328]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-02.38.49:136][328]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-21.38.49
+[2015.10.09-02.38.49:136][328]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.38.49:136][328]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.38.49:137][328]LogWorld: Bringing up level for play took: 0.017583
+[2015.10.09-02.38.49:140][328]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats 0.901
+[2015.10.09-02.38.49:140][328]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.38.54:500][421]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.38.54:586][421]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.38.54:658][421]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4483E5D00
+[2015.10.09-02.39.00:880][736]MapCheck: New page: Map Check
+[2015.10.09-02.39.00:893][736]Cmd: MAP REBUILD ALLVISIBLE
+[2015.10.09-02.39.00:893][736]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.09-02.39.01:309][736]LightingResults: New page: Lighting Build - Oct 8, 2015, 4:39:01 PM
+[2015.10.09-02.39.20:168][736]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.10.09-02.39.20:181][736]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.10.09-02.39.20:181][736]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.10.09-02.39.20:181][736]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.10.09-02.39.20:181][736]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.10.09-02.39.20:181][736]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.10.09-02.39.20:470][736]LogEditorBuildUtils: Build time 0:00:19
+[2015.10.09-02.39.24:307][875]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.39.24:307][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-02.39.24:308][875]PIE: New page: PIE session: cats (Oct 8, 2015, 4:39:24 PM)
+[2015.10.09-02.39.24:308][875]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-02.39.24:403][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095064s)
+[2015.10.09-02.39.24:405][875]LogAIModule: Creating AISystem for world cats
+[2015.10.09-02.39.24:405][875]LogPlayLevel: PIE: World Init took: (0.002589s)
+[2015.10.09-02.39.24:406][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (0.098467s)
+[2015.10.09-02.39.24:488][875]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-02.39.24:499][875]LogInit: FAudioDevice initialized.
+[2015.10.09-02.39.24:545][875]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-02.39.24:562][875]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-21.39.24
+[2015.10.09-02.39.24:562][875]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.39.24:563][875]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.39.24:564][875]LogWorld: Bringing up level for play took: 0.017163
+[2015.10.09-02.39.24:566][875]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats 0.327
+[2015.10.09-02.39.24:566][875]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.40.41:233][412]LightingResults:Error: Error playground_gatito Object has overlapping UVs.
+[2015.10.09-02.40.41:234][412]LightingResults: Info playground_gatito Lightmap UV are overlapping by 47.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-02.40.46:249][427]Job is a success!
+[2015.10.09-02.41.24:652][868]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.41.24:724][868]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.41.24:870][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4441DD120
+[2015.10.09-02.41.43:143][953]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.10.09-02.41.43:538][953]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.10.09-02.41.43:547][953]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.10.09-02.41.43:548][953]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2015.10.09-02.41.43:555][953]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.10.09-02.41.43:568][953]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.10.09-02.41.43:586][953]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2015.10.09-02.41.43:597][953]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.10.09-02.41.43:607][953]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.10.09-02.41.43:633][953]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2015.10.09-02.41.43:645][953]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.10.09-02.41.43:830][953]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.10.09-02.41.44:105][953]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2015.10.09-02.41.44:210][953]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.10.09-02.41.44:267][953]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.10.09-02.41.44:472][953]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2015.10.09-02.41.44:584][953]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.10.09-02.41.44:878][953]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.10.09-02.41.45:909][953]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (G8)
+[2015.10.09-02.41.45:967][953]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (G8)
+[2015.10.09-02.41.45:971][953]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (G8)
+[2015.10.09-02.41.46:198][953]LogStaticLightingSystem: Illumination: 2:03 min (3.18 sec encoding lightmaps)
+[2015.10.09-02.41.46:198][953]LogStaticLightingSystem: Lightmap texture memory:  1.8 MB (0.5 MB streaming, 1.3 MB non-streaming), 12 textures
+[2015.10.09-02.41.46:198][953]LogStaticLightingSystem: Shadowmap texture memory: 3.2 MB (0.5 MB streaming, 2.7 MB non-streaming), 19 textures
+[2015.10.09-02.41.47:987][954]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.10.09-02.41.47:987][954]MapCheck: New page: cats - Oct 8, 2015, 4:41:47 PM
+[2015.10.09-02.41.48:406][954]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 418.275ms to complete.
+[2015.10.09-02.43.18:142][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.43.18:143][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-02.43.18:143][407]PIE: New page: PIE session: cats (Oct 8, 2015, 4:43:18 PM)
+[2015.10.09-02.43.18:143][407]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-02.43.18:234][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090806s)
+[2015.10.09-02.43.18:236][407]LogAIModule: Creating AISystem for world cats
+[2015.10.09-02.43.18:239][407]LogPlayLevel: PIE: World Init took: (0.005005s)
+[2015.10.09-02.43.18:239][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (0.096200s)
+[2015.10.09-02.43.18:239][407]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-02.43.18:329][407]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-02.43.18:340][407]LogInit: FAudioDevice initialized.
+[2015.10.09-02.43.18:385][407]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-02.43.18:403][407]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-21.43.18
+[2015.10.09-02.43.18:403][407]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.43.18:403][407]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.43.18:404][407]LogWorld: Bringing up level for play took: 0.017354
+[2015.10.09-02.43.18:407][407]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats 0.168
+[2015.10.09-02.43.18:407][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.43.35:883][760]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.43.35:926][760]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.43.36:002][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F434804B80
+[2015.10.09-02.46.17:586][857]MapCheck: New page: Map Check
+[2015.10.09-02.46.17:631][857]Cmd: MAP REBUILD ALLVISIBLE
+[2015.10.09-02.46.17:632][857]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.09-02.46.18:123][857]LightingResults: New page: Lighting Build - Oct 8, 2015, 4:46:18 PM
+[2015.10.09-02.46.36:951][857]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.10.09-02.46.36:952][857]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.10.09-02.46.36:952][857]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.10.09-02.46.36:952][857]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.10.09-02.46.36:952][857]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.10.09-02.46.36:952][857]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.10.09-02.46.37:137][857]LogEditorBuildUtils: Build time 0:00:19
+[2015.10.09-02.46.38:402][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-02.46.47:487][ 90]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-02.46.47:577][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cats/cats" FILE="../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/cats_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.10.09-02.46.47:984][ 90]LogSavePackage: Save=372.680542ms
+[2015.10.09-02.46.47:984][ 90]LogSavePackage: Moving '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/cats_Auto59976F6804ABF9C463919DC841B387B01.tmp' to '../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/cats_Auto5.umap'
+[2015.10.09-02.46.47:989][ 90]LogSavePackage: Total save time: 409.366541ms
+[2015.10.09-02.46.47:989][ 90]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Edosiho/Documents/GitHub/C.A.T.S/CATS/Saved/Autosaves/Game/Cats/cats_Auto5.umap
+[2015.10.09-02.46.47:996][ 90]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Cats/cats' took 0.508
+[2015.10.09-02.46.47:996][ 90]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.508
+[2015.10.09-02.47.36:942][776]LightingResults:Error: Error playground_gatito Object has overlapping UVs.
+[2015.10.09-02.47.36:942][776]LightingResults: Info playground_gatito Lightmap UV are overlapping by 47.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-02.47.41:945][791]Job is a success!
+[2015.10.09-02.47.43:342][792]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.10.09-02.47.43:673][792]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.10.09-02.47.43:682][792]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.10.09-02.47.43:684][792]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2015.10.09-02.47.43:689][792]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.10.09-02.47.43:698][792]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.10.09-02.47.43:717][792]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2015.10.09-02.47.43:752][792]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.10.09-02.47.43:765][792]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.10.09-02.47.43:790][792]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2015.10.09-02.47.43:803][792]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.10.09-02.47.43:930][792]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.10.09-02.47.44:158][792]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2015.10.09-02.47.44:236][792]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.10.09-02.47.44:300][792]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.10.09-02.47.44:423][792]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2015.10.09-02.47.44:529][792]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.10.09-02.47.44:817][792]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.10.09-02.47.45:780][792]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (G8)
+[2015.10.09-02.47.45:847][792]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (G8)
+[2015.10.09-02.47.45:852][792]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (G8)
+[2015.10.09-02.47.45:905][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-02.47.46:048][792]LogStaticLightingSystem: Illumination: 1:27 min (2.79 sec encoding lightmaps)
+[2015.10.09-02.47.46:048][792]LogStaticLightingSystem: Lightmap texture memory:  1.8 MB (0.5 MB streaming, 1.3 MB non-streaming), 12 textures
+[2015.10.09-02.47.46:049][792]LogStaticLightingSystem: Shadowmap texture memory: 3.9 MB (0.5 MB streaming, 3.3 MB non-streaming), 22 textures
+[2015.10.09-02.47.48:033][793]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.10.09-02.47.48:033][793]MapCheck: New page: cats - Oct 8, 2015, 4:47:48 PM
+[2015.10.09-02.47.48:266][793]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 232.963ms to complete.
+[2015.10.09-02.48.22:563][ 62]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.48.22:563][ 62]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-02.48.22:563][ 62]PIE: New page: PIE session: cats (Oct 8, 2015, 4:48:22 PM)
+[2015.10.09-02.48.22:563][ 62]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-02.48.22:648][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085111s)
+[2015.10.09-02.48.22:650][ 62]LogAIModule: Creating AISystem for world cats
+[2015.10.09-02.48.22:650][ 62]LogPlayLevel: PIE: World Init took: (0.002088s)
+[2015.10.09-02.48.22:650][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (0.087559s)
+[2015.10.09-02.48.22:650][ 62]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-02.48.22:738][ 62]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-02.48.22:749][ 62]LogInit: FAudioDevice initialized.
+[2015.10.09-02.48.22:797][ 62]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-02.48.22:814][ 62]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-21.48.22
+[2015.10.09-02.48.22:814][ 62]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.48.22:815][ 62]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.48.22:816][ 62]LogWorld: Bringing up level for play took: 0.017035
+[2015.10.09-02.48.22:818][ 62]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats 0.579
+[2015.10.09-02.48.22:819][ 62]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.48.39:311][348]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.48.39:372][348]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.48.39:451][348]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F44930F600
+[2015.10.09-02.48.47:020][490]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.48.49:869][561]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.48.50:398][583]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.48.59:642][815]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.49.00:300][835]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.49.00:705][852]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2015.10.09-02.49.14:734][408]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.49.14:734][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-02.49.14:735][408]PIE: New page: PIE session: cats (Oct 8, 2015, 4:49:14 PM)
+[2015.10.09-02.49.14:735][408]LogPlayLevel: Creating play world package: /Game/Cats/UEDPIE_0_cats
+[2015.10.09-02.49.14:862][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.126773s)
+[2015.10.09-02.49.14:863][408]LogAIModule: Creating AISystem for world cats
+[2015.10.09-02.49.14:864][408]LogPlayLevel: PIE: World Init took: (0.002063s)
+[2015.10.09-02.49.14:864][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cats/cats.cats to /Game/Cats/UEDPIE_0_cats.cats (0.129197s)
+[2015.10.09-02.49.14:951][408]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.09-02.49.14:964][408]LogInit: FAudioDevice initialized.
+[2015.10.09-02.49.15:015][408]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-02.49.15:032][408]LogWorld: Bringing World /Game/Cats/UEDPIE_0_cats.cats up for play (max tick rate 60) at 2015.10.08-21.49.15
+[2015.10.09-02.49.15:032][408]LogActor:Warning: GameSession /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.49.15:033][408]LogActor:Warning: GameNetworkManager /Game/Cats/UEDPIE_0_cats.cats:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-02.49.15:034][408]LogWorld: Bringing up level for play took: 0.018149
+[2015.10.09-02.49.15:037][408]PIE: Info Play in editor start time for /Game/Cats/UEDPIE_0_cats 0.798
+[2015.10.09-02.49.15:037][408]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.49.54:917][298]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.49.55:004][298]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Cats/cats.cats:PersistentLevel' has LevelScriptBlueprint '/Game/Cats/cats.cats:PersistentLevel.cats' with GeneratedClass '/Game/Cats/cats.cats_C' with ClassGeneratedBy '/Game/Cats/cats.cats:PersistentLevel.cats'
+[2015.10.09-02.49.55:130][299]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F44909E200
+[2015.10.09-02.49.59:726][384]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.00:438][405]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.00:951][431]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.01:418][451]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.04:372][517]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.04:681][525]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.05:006][540]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.07:052][609]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.07:228][614]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.07:947][645]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.13:893][765]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.14:439][792]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.14:706][803]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.15:054][819]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.15:312][829]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.15:547][838]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.15:698][841]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2015.10.09-02.50.15:979][845]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2015.10.09-02.50.16:035][845]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.09-02.50.40:244][266]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.09-02.50.42:286][266]LogActorComponent: UnregisterComponent
